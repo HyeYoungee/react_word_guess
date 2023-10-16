@@ -1,0 +1,32 @@
+body{
+  padding: 20px;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 350px;
+}
+.buttons button{
+  width: 30px;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+.buttons button.guessed{
+  display: none;
+}
+
+.letters{
+  display: flex;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+.letters span{
+  width: 34px;
+  height: 34px;
+  border: 1px solid gray;
+  text-align: center;
+  line-height: 34px;
+  font-size: 1.25rem;
+}
